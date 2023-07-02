@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sdY1m81outhpQaz6jvOjFG2VikA0g0SOqa+o5IdG+Q8FjdpeMCSt6qwl6v5vP4ByPfVfmPAVz19vbQT0AeE0RQ==",
+  "success": true,
+  "projectFilePath": "D:\\Fiotec.Prova\\src\\Fiotec.Prova.Domain\\Fiotec.Prova.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CaioPotter\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

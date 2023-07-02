@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{66153B1B-54B8-4B90-9E54-CDD0DEF231A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{27C2B50D-C57C-4690-9D1E-58E053D96DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{EB26240C-A114-40F4-A379-434CC19E7799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{551744F2-E6D3-409A-8E05-78ECF3ED9550}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiotec.Prova.Domain", "src\Fiotec.Prova.Domain\Fiotec.Prova.Domain.csproj", "{39E02560-D9A4-4742-9770-A8E48E0AA089}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiotec.Prova.Infra.Data", "src\Fiotec.Prova.Infra.Data\Fiotec.Prova.Infra.Data.csproj", "{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiotec.Prova.Application", "src\Fiotec.Prova.Application\Fiotec.Prova.Application.csproj", "{8EA53989-ACAA-471F-BB36-642E030EB06E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiotec.Prova.API", "src\Fiotec.Prova.API\Fiotec.Prova.API.csproj", "{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiotec.Prova.Infra.Data.Rest", "src\Fiotec.Prova.Infra.Data.Rest\Fiotec.Prova.Infra.Data.Rest.csproj", "{D729A449-56F8-4DD2-84FF-27ACF73EEBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiotec.Prova.Infra.IoC", "src\Fiotec.Prova.Infra.IoC\Fiotec.Prova.Infra.IoC.csproj", "{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39E02560-D9A4-4742-9770-A8E48E0AA089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E02560-D9A4-4742-9770-A8E48E0AA089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E02560-D9A4-4742-9770-A8E48E0AA089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E02560-D9A4-4742-9770-A8E48E0AA089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA53989-ACAA-471F-BB36-642E030EB06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA53989-ACAA-471F-BB36-642E030EB06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA53989-ACAA-471F-BB36-642E030EB06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA53989-ACAA-471F-BB36-642E030EB06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D729A449-56F8-4DD2-84FF-27ACF73EEBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D729A449-56F8-4DD2-84FF-27ACF73EEBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D729A449-56F8-4DD2-84FF-27ACF73EEBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D729A449-56F8-4DD2-84FF-27ACF73EEBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39E02560-D9A4-4742-9770-A8E48E0AA089} = {66153B1B-54B8-4B90-9E54-CDD0DEF231A2}
+		{9D6CCE59-8E33-48CC-9A8F-9C498E82B48C} = {551744F2-E6D3-409A-8E05-78ECF3ED9550}
+		{8EA53989-ACAA-471F-BB36-642E030EB06E} = {EB26240C-A114-40F4-A379-434CC19E7799}
+		{34A4EAE3-634C-4FE3-BE56-63A763C6F3CE} = {27C2B50D-C57C-4690-9D1E-58E053D96DBB}
+		{D729A449-56F8-4DD2-84FF-27ACF73EEBBF} = {551744F2-E6D3-409A-8E05-78ECF3ED9550}
+		{BEF6CA17-3038-4E5F-976A-CBDC91B00F4E} = {551744F2-E6D3-409A-8E05-78ECF3ED9550}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00207DAB-877F-4CA0-8563-82BFDF8AEFA5}
+	EndGlobalSection
+EndGlobal
